@@ -3,7 +3,8 @@
 	Data last updated 2013 Oct 1st
 */
 
-module.exports = [{
+const globalObj = (typeof exports !== 'undefined'?module.exports:window);
+globalObj = [{
 	code: 'AED',
 	number: '784',
 	digits: 2,
